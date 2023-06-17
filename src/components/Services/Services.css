@@ -1,0 +1,124 @@
+.services__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.service{
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border:  1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.service:hover{
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+}
+
+.service__hand{
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0,0, 0,0.1);
+}
+
+.service__hand h3{
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.service__list{
+   padding: 2rem;
+}
+
+.service__list li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.service__list-icons{
+    color: var(--color-primary);
+    margin-top: 20px;
+}
+
+.service__list p{
+    font-size: 0.9rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .services__container{
+        grid-template-columns:1fr 1fr;
+        gap: 2rem;
+
+    }
+.service{
+    height: auto;
+
+}
+   
+.services_section{
+    margin-top: 160vh;
+} 
+      
+
+    
+
+}
+    
+    @media screen and (max-width: 600px) {
+.services__container{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+.services_section{
+    margin-top: 100vh;
+}
+    
+    }
+
+
+    @media screen and (max-width:375px) {
+        .services__container{
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .services_section{
+            margin-top: 160vh;
+        }
+        .portfolio__item{
+            margin-left: 30px;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+
+        .services_section{
+            margin-top: 120vh;
+            margin-left: 80px;
+            
+            }
+    }
+    @media screen and (max-width: 320px) {
+    
+           .services_section{
+            
+            margin-top: 290vh;
+            margin-left: 80px;
+            
+            }
+    }
+    @media screen and (max-width: 425px) {
+    
+               .services_section{
+            margin-top: 160vh;
+            margin-left: 20px;
+            
+            }
+    }

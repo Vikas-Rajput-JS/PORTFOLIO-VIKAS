@@ -1,0 +1,125 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    /* margin-right: 40vh; */
+
+}
+
+
+
+.portfolio__item{
+    background: var(--color-bg-variant);
+    /* position: 1.3rem; */
+    width: 40vh;
+    height: 99%;
+    margin-left: 12px;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+   
+    transition: var(--transition);
+}
+
+.portfolio__item:hover{
+    border-color: var(--color-primary -variant);
+    background: transparent;
+}
+
+.project{
+    width: 90%;
+    height: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 1.5rem;
+}
+
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
+    margin-left: 5%;
+}
+
+.portfolio__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+.portfolio__container{
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+}
+   
+.portfolio_section{
+    margin-top: 160vh;
+}     
+
+    
+
+}
+    
+    @media screen and (max-width: 600px) {
+.portfolio__container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.portfolio_section{
+    margin-top: 170vh;
+}
+.portfolio__item{
+    margin-left: 30px;
+}
+    
+    }
+
+    @media screen and (max-width:375px) {
+        .portfolio__container{
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .portfolio_section{
+            margin-top: 240vh;
+        }
+        .portfolio__item{
+            margin-left: 30px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+
+        .portfolio_section{
+            margin-top: 120vh;
+            /* margin-left: 80px; */
+            
+            
+            }
+    }
+    @media screen and (max-width: 320px) {
+    
+           .experience_section{
+            
+            margin-top: 290vh;
+            /* margin-left: 80px; */
+            
+            }
+            .portfolio__item{
+                margin-left: 90px;
+            }
+    }
+    @media screen and (max-width: 425px) {
+    
+        .portfolio_section{
+            margin-top: 310vh;
+
+            /* margin-left: 20px; */
+            
+            }
+            .portfolio__item{
+                margin-left: 90px;
+            }
+    }
