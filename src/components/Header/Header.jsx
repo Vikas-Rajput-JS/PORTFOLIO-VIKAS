@@ -14,7 +14,7 @@ export default function Header() {
 
 <h5>Hello I'm</h5>
 <h5>Vikas Rajput</h5>
-<h5 className='text-light'>Front End Developer </h5>
+<h5 className='text-light'>MERN-STACK DEVELOPER </h5>
 <CTA/>
 <HeaderSocials/>
 <div className='me'>
