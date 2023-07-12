@@ -50,16 +50,24 @@ export default function Experience() {
 
 </div>
     </article>
+    <article className='experience__details'>
+<BsFillPatchCheckFill className="experience__details-icons"/>
+<div>
+<h4>ReactJs</h4>
+<small className='text-light' >Experienced</small>
+
+</div>
+    </article>
   </div>
 </div>
 <div className="experience__backend">
-<h3>REACTJS Development</h3>
+<h3>Back-End Development</h3>
 <div className="experience__content">
   
     <article className='experience__details'>
 <BsFillPatchCheckFill className="experience__details-icons"/>
 <div>
-<h4>REACT-LIBRARY</h4>
+<h4>NodeJs</h4>
 <small className='text-light' >Experienced</small>
 
 </div>
@@ -67,7 +75,7 @@ export default function Experience() {
     <article className='experience__details'>
 <BsFillPatchCheckFill className="experience__details-icons"/>
 <div>
-<h4>REACT-REDUX</h4>
+<h4>MongoDB</h4>
 <small className='text-light' >Experienced</small>
 
 </div>
@@ -75,7 +83,7 @@ export default function Experience() {
     <article className='experience__details'>
 <BsFillPatchCheckFill className="experience__details-icons"/>
 <div>
-<h4>REACT-HOOKS</h4>
+<h4>ExpressJS</h4>
 <small className='text-light' >Experienced</small>
 
 </div>
@@ -83,7 +91,7 @@ export default function Experience() {
     <article className='experience__details'>
 <BsFillPatchCheckFill className="experience__details-icons"/>
 <div>
-<h4>REACT-STATES</h4>
+<h4>Database Knowledge</h4>
 <small className='text-light' >Experienced</small>
 
 </div>
@@ -91,7 +99,7 @@ export default function Experience() {
     <article className='experience__details'>
 <BsFillPatchCheckFill className="experience__details-icons"/>
 <div>
-<h4>COMPLETE REACTJS</h4>
+<h4>CRUD-APIs</h4>
 <small className='text-light' >Experienced</small>
 
 </div>
