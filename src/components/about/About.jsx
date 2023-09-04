@@ -34,11 +34,9 @@ export default function About() {
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
-            laboriosam inventore aliquam voluptas deleniti et! Rem ipsa officia
-            voluptatem eligendi sit placeat labore a nesciunt fugiat, nulla
-            magnam! Ipsa similique veritatis eligendi porro eum corporis
-            laboriosam nam repellendus dignissimos ullam?
+          Hy Friend. I'm A MERN DEVELOPER. And I'm ready to work on A responsive Project using  my  best skills in Reactjs And Nodejs.
+            I have worked on 20+ Freelance Projects on Upwork and Freelance. I have mentioned Some of My Projects in Project section in my  portfolio.
+            Check it Out. Curently I'm in my learing zone and i will keep updated with new technologies.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
